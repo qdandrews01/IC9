@@ -35,7 +35,7 @@ def get_chocolates():
     return jsonify(chocolates)
 
 @app.route('/seconddevchanges', methods=['GET'])
-def get_chocolates():
+def second_dev():
     return "Hello, it is second developer"
 
 if __name__ == '__main__':
