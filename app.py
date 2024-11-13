@@ -36,7 +36,7 @@ def get_chocolates():
 
 @app.route('/seconddevchanges', methods=['GET'])
 def get_chocolates():
-    return "Hello, it is second dev"
+    return "Hello, it is second developer"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=80)
